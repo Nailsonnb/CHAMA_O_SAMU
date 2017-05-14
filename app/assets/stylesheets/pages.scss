@@ -1,0 +1,22 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//div#fundo{
+//    background: #ccc;
+//    width:1000px;
+//    height:1000px;
+//    margin:0 auto;
+//    
+//}
+//div#botao_pesquisa{
+//    background: #0f0;
+//    width:100px;
+//    height:100x;
+//    margin:0 auto;
+//    float:middle;
+//}
+.imagem {
+background-image: url(pages/samu.png); /* Insere a imagem */
+width: 150px;/* Faz a largura ficar igual a da largura da imagem de exemplo */
+height: 150px;/* Faz a altura ficar igual a da altura da imagem de exemplo */
+}

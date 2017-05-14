@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="pesquisa" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pesquisa</a>
+    <a href="sobre" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sobre</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="pesquisa" class="w3-bar-item w3-button w3-padding-large">Pesquisa</a>
+    <a href="sobre" class="w3-bar-item w3-button w3-padding-large">Sobre</a>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>CoffeeHolic</h1>
+      
+      <p class="w3-text-grey">Coffeeholic é um dos grupo da disciplina da engenharia de software de sistema de informação do centro de informática da universidade federal de pernambuco 2017.1 .O grupo é composto por NAILSON NASCIMENTO, MARCUS TIBERIUS E VICTOR BURGARDT.<br> 
+      Esse site é um trabalho proporcionado pelo professor 
+      <a href="https://viniciusgarcia.com/">Vinicius Cardoso Garcia</a> para aplicar os conhecimentos da cadeira com o 
+      tema dados abertos pernambuco, mesmo que escassos a quantidade de dados abertos nosso grupo foi capaz de achar o dados disponíveis sobre o SAMU que mostra detalhes sobre as solicitações que eles tiveram no período de 2014/2015 , 
+      infelizmente  essa iniciativa foi aparentemente abandonada sendo que faz 2 anos que não foram adicionados novos dados. <br>
+Para mais informações sobre o projeto e a cadeira segue o link <a href="https://sites.google.com/a/cin.ufpe.br/if977/projeto">https://sites.google.com/a/cin.ufpe.br/if977/projeto</a> e se você tem alguma algum comentario porfavor faça o abaixo.
+</p>
+      <p class="w3-text-grey"> </p>
+      <p class="w3-text-grey"> </p>
+      <form class="new_comentario" id="new_comentario" action="/comentarios" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GttPhcPvKRK5/OvneiFQEkBL/w7eorpzelOcA+Osz4a65KIFrN8nvazwAZwEOa1QXp7Uu+24Im2yFbxfv3YrVA==" />
+
+      <fieldset>
+        <legend>Deixe seu comentário AQUI</legend>
+
+        <div class="field">
+          <label for="comentario_email">Email</label><br>
+          <input type="text" name="comentario[email]" id="comentario_email"  size="40" />
+        </div>
+        <div class="field">
+          <label for="comentario_descricao">Comentário</label><br>
+          <textarea name="comentario[descricao]" id="comentario_descricao" rows="4" cols="40">
+          </textarea>
+        </div>
+        <div class="actions">
+          <input type="submit" name="commit" value="Enviar" />
+        </div>
+        
+        </fieldset>
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
