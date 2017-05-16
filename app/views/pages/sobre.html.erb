@@ -49,26 +49,24 @@ Para mais informações sobre o projeto e a cadeira segue o link <a href="https:
 </p>
       <p class="w3-text-grey"> </p>
       <p class="w3-text-grey"> </p>
-      <form class="new_comentario" id="new_comentario" action="/comentarios" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GttPhcPvKRK5/OvneiFQEkBL/w7eorpzelOcA+Osz4a65KIFrN8nvazwAZwEOa1QXp7Uu+24Im2yFbxfv3YrVA==" />
-
-      <fieldset>
-        <legend>Deixe seu comentário AQUI</legend>
-
+      <form class="new_coment" id="new_coment" action="/coments" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2/GlOVpZruaSpd+/WG3GlwDYoIaA7mM9COPR4u2vvHMcLEjF5iaw/Ncj4K9G5xeTy3Ldd8HYOz+ODzGQaSwHvg==" />
+      
+       <fieldset>
+        <legend>Deixe seu comentario AQUI:</legend>
+      
         <div class="field">
-          <label for="comentario_email">Email</label><br>
-          <input type="text" name="comentario[email]" id="comentario_email"  size="40" />
+          <label for="coment_email">Email</label><br>
+          <input type="text" name="coment[email]" id="coment_email" size = "45" required/>
         </div>
         <div class="field">
-          <label for="comentario_descricao">Comentário</label><br>
-          <textarea name="comentario[descricao]" id="comentario_descricao" rows="4" cols="40">
-          </textarea>
+          <label for="coment_descricao">Descricao</label><br>
+          <textarea name="coment[descricao]" id="coment_descricao" rows="4" cols="45" required/>
+      </textarea>
         </div>
         <div class="actions">
-          <input type="submit" name="commit" value="Enviar" />
+          <input type="submit" name="commit" value="Enviar"/>
         </div>
-        
         </fieldset>
-        
       </form>
     </div>
   </div>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :coments
   resources :comentarios
   #get '/comentarios' => 'comentarios#index'
   #get '/comentarios/new' => 'comentarios#new'
