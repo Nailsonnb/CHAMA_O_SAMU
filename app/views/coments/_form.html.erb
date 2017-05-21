@@ -1,0 +1,26 @@
+<%= form_for(@coment) do |f| %>
+  <% if @coment.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@coment.errors.count, "error") %> prohibited this coment from being saved:</h2>
+
+      <ul>
+      <% @coment.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <label for="coment_email">Email *</label><br>
+    <input type="email" name="coment[email]" id="coment_email" size = "45" required/>
+  </div>
+  <div class="field">
+    <label for="coment_comentario">Comentário *</label><br>
+    <textarea name="coment[comentario]" id="coment_comentario" rows="5" cols="45" required/>
+</textarea>
+  </div>
+  <div class="actions">
+    <input type="submit" name="commit" value="Enviar" />
+  </div>
+<% end %>
