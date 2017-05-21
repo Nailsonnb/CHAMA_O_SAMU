@@ -1,17 +1,7 @@
 Rails.application.routes.draw do
   resources :coments
-  resources :comentarios
-  #get '/comentarios' => 'comentarios#index'
-  #get '/comentarios/new' => 'comentarios#new'
-  #post '/comentarios' => 'comentarios#create'
-  #get '/comentarios/:id' => 'comentarios#show'
-  #get '/comentarios/:id/edit' => 'comentarios#edit'
-  #patch '/comentarios/:id' => 'comentarios#update'
-  #delete '/comentarios/:id' => 'comentarios#destroy'
-  ##########
-  get '/' => 'pages#home'
-  get 'sobre' => 'pages#sobre'
-  get 'pesquisa' => 'pages#pesquisa'
+  get '/' => 'page#home'
+  get 'pesquisa' => 'page#pesquisa'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

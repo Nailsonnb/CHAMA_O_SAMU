@@ -1,4 +1,4 @@
-<p>Comentário criado com sucesso.</p>
+<p id="notice"><%= notice %></p>
 
 <p>
   <strong>Email:</strong>
@@ -6,8 +6,9 @@
 </p>
 
 <p>
-  <strong>Descricao:</strong>
-  <%= @coment.descricao %>
+  <strong>Comentario:</strong>
+  <%= @coment.comentario %>
 </p>
 
-<%= link_to 'Voltar', sobre_path %>
+<%= link_to 'Edit', edit_coment_path(@coment) %> |
+<%= link_to 'Back', coments_path %>

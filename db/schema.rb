@@ -11,18 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170516023920) do
-
-  create_table "comentarios", force: :cascade do |t|
-    t.string   "email"
-    t.text     "descricao"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 20170520223950) do
 
   create_table "coments", force: :cascade do |t|
     t.string   "email"
-    t.text     "descricao"
+    t.text     "comentario"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

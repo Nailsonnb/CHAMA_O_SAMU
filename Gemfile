@@ -47,7 +47,6 @@ ruby '2.3.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'rspec-rails'
 end
 
 group :development do
@@ -63,4 +62,9 @@ group :test do
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   gem 'capybara'
+  gem 'capybara-webkit'
+end
+
+group :test do
+  gem 'rspec-rails'
 end

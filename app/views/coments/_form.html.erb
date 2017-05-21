@@ -12,14 +12,15 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
+    <label for="coment_email">Email *</label><br>
+    <input type="email" name="coment[email]" id="coment_email" size = "45" required/>
   </div>
   <div class="field">
-    <%= f.label :descricao %><br>
-    <%= f.text_area :descricao %>
+    <label for="coment_comentario">Comentário *</label><br>
+    <textarea name="coment[comentario]" id="coment_comentario" rows="5" cols="45" required/>
+</textarea>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <input type="submit" name="commit" value="Enviar" />
   </div>
 <% end %>
