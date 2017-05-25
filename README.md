@@ -1,24 +1,27 @@
+<h1 dir="ltr" >Projeto: CHAMA_O_SAMU</h1>
+<h1 dir="ltr" > #Link do Heroku: http://chama-o-samu.herokuapp.com/ </h1>
+<h2 dir="ltr" >Equipe: CoffeeHolic</h2>
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+<hr />Objetivo<p>Criar uma aplicação Software as a Service onde se mostrar dados que expõem a importância e a dificuldade que enfrenta o serviço de atendimento móvel de urgência (SAMU).</p>
 
+<hr /><h1 dir="ltr" >Descrição</h1>
 
-Welcome to your Rails project on Cloud9 IDE!
+<br />
+<p>CHAMA_O_SAMU é uma aplicação SaaS que irá gerar gráficos e estatísticas a partir de filtros disponíveis ao usuário sendo (género, data,bairro, causa, trotes e etc). Além disso o aplicativo irá mostra a evolução entre 2014 e 2015 nos meses de janeiro até maio.</p>
 
-To get started, just do the following:
+<hr /><h1 dir="ltr" >Justificativa</h1>
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://chama-o-samu-20-05-2017-nailsonnb.c9users.io/).
+<p>Conscientizar a população da importância do serviço de atendimento móvel de urgência (SAMU) e expor dados sobre o sistema sendo quantidade de viaturas disponíveis e detalhes dos atendimentos no período de 2014 até maio de 2015.</p>
 
-Happy coding!
-The Cloud9 IDE team
+<br />
+<hr /><br />
+<br />
+<h1 dir="ltr" >Equipe:</h1>
 
+<p>Marcus Nascimento: GP</p>
 
-## Support & Documentation
+<p>Nailson Nascimento: Desenvolvedor</p>
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+<p>Victor burgardt: Desenvolvedor</p>
+
+<br />
