@@ -36,6 +36,8 @@ Atividade | Atribuição
  
 ## Lições aprendidas
 
+ * como utilizar a gem chartkick para formar os graficos
+ * como utilizar a gem groupdate para fazer selects que ajudam a forma os graficos
 
 
  
